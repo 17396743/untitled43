@@ -9,7 +9,9 @@ case -> pages -> base -> base -> pages -> case -> case ->test
 
 (这里先初始化绑定，传浏览器驱动、网址什么的)（case -> pages -> base） ->
 
-（base这里传动作，如点击动作、滑动动作、点击动作。pages里面是base动作的合集，可以完成像输入账号密码并点击登录这种操作，case是pages的集合）（base -> pages -> case）-> 
+（base这里传动作，如点击动作、滑动动作、点击动作。
+pages里面是base动作的合集，可以完成像输入账号密码并点击登录这种操作。
+case是pages的集合）（base -> pages -> case）-> 
 
 (这里是用来生成测试用例)（case -> test）
 
